@@ -10,6 +10,7 @@ class Fibonacci(object):
         :return: fibonacci number
         :rtype: int
         """
+        
         if n < 0:
             raise TypeError('please enter positive numbers')
 
