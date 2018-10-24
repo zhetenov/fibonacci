@@ -44,7 +44,7 @@ class Fibonacci(object):
         Dynamic programming is a way to solve complex problems, breaking them down into simpler subtasks.
 
         You must determine the number n is negative or positive. If the number is negative, then you need to raise the error.
-        After that you need to create two initial variables which is equal to 0 and 1.
+        After that you need to create two initial variables which is equal to 0 and 1 or you can use dictionary created above.
         Now you need for one iteration to calculate the Fibonacci number using this formula [(i - 1) + (i - 2)] using previously created variables.
         """
         pass
