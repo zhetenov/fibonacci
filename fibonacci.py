@@ -28,7 +28,7 @@ class Fibonacci(object):
 
         Recursion means calling functions directly from itself.
 
-        You must determine the number n is negative or positive. If the number is negative, then you need to catch the error.
+        You must determine the number n is negative or positive. If the number is negative, then you need to raise the error.
         After that you need to check if this number is in the cache. If this number in the cache return this number.
         If not, you need to recursively find (n - 1) + (n - 2).
         Until n equals one or zero.
@@ -43,7 +43,7 @@ class Fibonacci(object):
 
         Dynamic programming is a way to solve complex problems, breaking them down into simpler subtasks.
 
-        You must determine the number n is negative or positive. If the number is negative, then you need to catch the error.
+        You must determine the number n is negative or positive. If the number is negative, then you need to raise the error.
         After that you need to create two initial variables which is equal to 0 and 1.
         Now you need for one iteration to calculate the Fibonacci number using this formula [(i - 1) + (i - 2)] using previously created variables.
         """

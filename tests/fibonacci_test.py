@@ -115,8 +115,3 @@ class FibonacciTest(TestCase):
         fib = Fibonacci()
         with self.assertRaises(TypeError):
             fib.dynamic_implementation()
-
-
-
-
-
