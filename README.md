@@ -9,10 +9,9 @@ You need to write own **Fibonacci class** that realize two implementation:
 ### How to use
 1. Look at the file **fibonacci.py**.
 2. Run tests:
-```
-python3 -m unittest tests/fibonacci_test.py
-```
-You will see that all of them FAILED
+
+		python3 -m unittest tests/fibonacci_test.py
+	You will see that all of them FAILED
 3. Now, complete **fibonacci.py**
 4. After running tests all of them should be passed.
 5. Compare your answer with mine located in answers/fibonacci.py
